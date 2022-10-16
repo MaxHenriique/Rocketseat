@@ -43,7 +43,7 @@ const isWideVersion = useBreakpointValue({
                 </Th>
                 <Th>Usuários</Th>
                 { isWideVersion && <Th>Data de cadastro</Th>}
-                {/* <Th width="8"></Th> */}
+                { isWideVersion && <Th width="8"></Th>}
               </Tr>
             </Thead>
             <Tbody>
@@ -58,7 +58,7 @@ const isWideVersion = useBreakpointValue({
                   </Box>
                 </Td>
                 { isWideVersion && <Td>04 de Abril, 2022</Td>}
-                {/* <Td>
+                { isWideVersion && <Td>
                   <Button
                     as="a"
                     size="sm"
@@ -68,7 +68,7 @@ const isWideVersion = useBreakpointValue({
                   >
                     { isWideVersion ? 'Editar' : ''}
                   </Button>
-                </Td> */}
+                </Td>}
               </Tr>
               <Tr>
                 <Td px={["4", "4", "6"]}>
@@ -81,7 +81,7 @@ const isWideVersion = useBreakpointValue({
                   </Box>
                 </Td>
                 { isWideVersion && <Td>01 de Abril, 2022</Td>}
-                {/* <Td>
+                { isWideVersion && <Td>
                   <Button
                     as="a"
                     size="sm"
@@ -91,7 +91,7 @@ const isWideVersion = useBreakpointValue({
                   >
                     { isWideVersion ? 'Editar' : ''}
                   </Button>
-                </Td> */}
+                </Td>}
               </Tr>
               <Tr>
                 <Td px={["4", "4", "6"]}>
@@ -104,7 +104,7 @@ const isWideVersion = useBreakpointValue({
                   </Box>
                 </Td>
                 { isWideVersion && <Td>16 de Março, 2022</Td>}
-                {/* <Td>
+                { isWideVersion && <Td>
                   <Button
                     as="a"
                     size="sm"
@@ -114,7 +114,7 @@ const isWideVersion = useBreakpointValue({
                   >
                     { isWideVersion ? 'Editar' : ''}
                   </Button>
-                </Td> */}
+                </Td>}
               </Tr>
             </Tbody>
           </Table>
